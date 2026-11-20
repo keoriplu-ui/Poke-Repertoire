@@ -1,0 +1,14 @@
+h1 {
+    color:crimson; text-align: center ;
+}
+
+h2 {
+    color:rgb(218, 183, 23); text-align: center ;
+}
+
+body {
+    background-image: url("../images/noctali.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
