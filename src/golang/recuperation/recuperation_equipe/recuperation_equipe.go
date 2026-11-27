@@ -1,8 +1,8 @@
-package recuperation
+package recuperation_equipe
 
 import (
 	"fmt"
-	"poke-repertoire/src/golang/recuperation/recuperation_equipe"
+	recuperation_equipe "poke-repertoire/src/golang/recuperation/recuperation_equipe/recuperation_separe"
 	"poke-repertoire/src/golang/structure_donnee"
 )
 
