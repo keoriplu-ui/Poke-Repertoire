@@ -1,4 +1,4 @@
-package recuperation_equipe
+package recuperation_separe
 
 import (
 	"encoding/json"
