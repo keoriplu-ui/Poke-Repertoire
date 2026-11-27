@@ -22,36 +22,21 @@ body {
     margin-bottom: 50px;
 }
 
-.card1 {
-    width: 320px;
-    height: 220px;
+.fond1 {
     background-image: url("../images/dresseurs.jpg");
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px;
-    overflow: hidden;
-    filter: grayscale(70%);
-    transition: transform 0.4s ease, filter 0.4s ease;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
-.card2 {
-    width: 320px;
-    height: 220px;
+.fond2 {
     background-image: url("../images/équipe.jpg");
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px;
-    overflow: hidden;
-    filter: grayscale(70%);
-    transition: transform 0.4s ease, filter 0.4s ease;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
-.card3 {
+.fond3 {
+    background-image: url("../images/grainipiot.png");
+}
+
+.card {
     width: 320px;
     height: 220px;
-    background-image: url("../images/grainipiot.png");
     background-size: cover;
     background-position: center;
     border-radius: 15px;
