@@ -12,3 +12,110 @@ body {
     background-size: cover;
     background-position: center;
 }
+
+/* --- Grille des cartes principales --- */
+.content {
+    display: flex;
+    flex-wrap: wrap; /* S'adapte mieux sur les petits écrans */
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+.card1 {
+    width: 320px;
+    height: 220px;
+    background-image: url("../images/dresseurs.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    overflow: hidden;
+    filter: grayscale(70%);
+    transition: transform 0.4s ease, filter 0.4s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card2 {
+    width: 320px;
+    height: 220px;
+    background-image: url("../images/équipe.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    overflow: hidden;
+    filter: grayscale(70%);
+    transition: transform 0.4s ease, filter 0.4s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card3 {
+    width: 320px;
+    height: 220px;
+    background-image: url("../images/grainipiot.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    overflow: hidden;
+    filter: grayscale(70%);
+    transition: transform 0.4s ease, filter 0.4s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.55); /* Fond sombre transparent pour rendre le texte lisible */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.card h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.4em;
+    color: #ffffff;
+}
+
+p {
+    color: rgb(192, 192, 192);
+}
+
+.card p {
+    margin: 0 0 15px 0;
+    font-size: 0.9em;
+}
+
+/* Liens transformés en boutons stylisés */
+.btn {
+    text-decoration: none;
+    color: #2b2d42;
+    background-color: #5afff1;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.btn:hover {
+    background-color: #5afff1;
+    transform: scale(1.05);
+}
+
+/* Animation d'inclinaison des cartes */
+.agauche:hover {
+    transform: rotate(-2deg) scale(1.05);
+    filter: grayscale(0%);
+}
+
+.adroite:hover {
+    transform: rotate(2deg) scale(1.05);
+    filter: grayscale(0%);
+}
+
+.zoom:hover {
+    transform: scale(1.05);
+    filter: grayscale(0%);
+}
